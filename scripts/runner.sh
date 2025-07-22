@@ -5,8 +5,8 @@ chromium-browser \
   --disable-infobars \
   --disable-session-crashed-bubble \
   --disable-features=AllowCrossOriginAuthPrompt,SameSiteByDefaultCookies \
-  --auth-server-whitelist="csmsvr02/" \
-  --auth-negotiate-delegate-whitelist="csmsvr02/" \
+  --auth-server-whitelist="*csmsvr02/" \
+  --auth-negotiate-delegate-whitelist="*csmsvr02/" \
   --enable-auth-negotiate-port \
   --no-first-run \
   --noerrdialogs \
