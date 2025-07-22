@@ -4,6 +4,7 @@ chromium-browser \
   --disable-component-update \
   --disable-composited-antialiasing \
   --disable-gpu-driver-bug-workarounds \
+  --disable-features=AllowCrossOriginAuthPrompt \
   --disable-infobars \
   --disable-low-res-tiling \
   --disable-pinch \
